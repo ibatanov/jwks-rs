@@ -1,7 +1,14 @@
-# jwks
-Fetch and parse JSON Web Key Set (JWKS)
+# jwks-rs
+[![Version](https://img.shields.io/crates/v/jwks-rs)](https://crates.io/crates/jwks-rs)
+[![License](https://img.shields.io/crates/l/jwks-rs)](License)
 
-## Usage
+## Installation
+```toml
+[dependencies]
+jwks-rs = "0.1.0"
+```
+
+### Usage examples
 
 From a jwks url.
 ```rust

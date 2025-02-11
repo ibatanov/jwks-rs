@@ -1046,7 +1046,7 @@ dependencies = [
 
 [[package]]
 name = "jwks-rs"
-version = "0.2.1"
+version = "0.1.0"
 dependencies = [
  "base64 0.22.1",
  "httpmock",
