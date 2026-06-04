@@ -22,10 +22,10 @@ let openid_config_url = "https://accounts.google.com/.well-known/openid-configur
 let jwks = Jwks::from_oidc_url(openid_config_url).await.unwrap();
 ```
 
-Use with [jsonwebtokn](https://github.com/Keats/jsonwebtoken) to validate a jwt.
+Use with [jsonwebtoken](https://github.com/Keats/jsonwebtoken) to validate a jwt.
 ```rust
 use jsonwebtoken::{decode, decode_header, TokenData, Validation};
-use jwks::Jwks;
+use jwks_rs::Jwks;
 use serde::{Deserialize, Serialize};
 
 #[derive(Clone, Debug, Serialize, Deserialize)]
