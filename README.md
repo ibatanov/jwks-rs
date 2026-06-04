@@ -5,7 +5,7 @@
 ## Installation
 ```toml
 [dependencies]
-jwks-rs = "0.1.0"
+jwks-rs = "0.2.0"
 ```
 
 ### Usage examples
